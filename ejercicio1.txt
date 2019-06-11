@@ -1,0 +1,7 @@
+INICIO
+    LEER tabla 
+
+    FOR contador = 1 WHILE contador<=10 increase contador +1
+       ESCRIBE tabla * contador
+    END FOR
+FIN

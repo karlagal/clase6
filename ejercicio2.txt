@@ -1,0 +1,15 @@
+INICIO
+    LEER pesoIdeal 
+    LEER pesoBajado
+    LEER pesoActual
+
+    FOR (let contador = 0 ; pesoActual != pesoIdeal ; contador ++)
+        pesoActual =pesoActual-pesoBajado
+       ESCRIBE     
+        ("peso actual ahora es" + pesoActual)
+        
+    END FOR
+
+    ESCRIBE ("necesitas" + contador + "dias para llegar a tu peso ideal")
+FIN
+
